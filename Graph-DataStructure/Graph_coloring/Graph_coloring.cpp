@@ -32,7 +32,7 @@ bool graphColoring(bool graph[101][101], int m, int N) {
     0
   };
   if (solve(0, color, m, N, graph)) return true;
-  return falsee;
+  return false;
 }
 
 int main() {
